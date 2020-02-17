@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -24,10 +25,26 @@ namespace UsersAPI
 
         public IConfiguration Configuration { get; }
 
+        // we are using Autofac container here to add services and setup Dependency Injection
+        public static IContainer container { get; private set; }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddMvc();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    p => p.AllowAnyOrigin().
+                        AllowAnyHeader().
+                        AllowAnyMethod().
+                        AllowCredentials()
+                        );
+            });
+
+
 
             string connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<UserRepo>(opt => opt.UseSqlServer(connectionString));
@@ -48,6 +65,7 @@ namespace UsersAPI
             }
 
             app.UseHttpsRedirection();
+            app.UseCors("AllowAll");
             app.UseMvc();
         }
     }
