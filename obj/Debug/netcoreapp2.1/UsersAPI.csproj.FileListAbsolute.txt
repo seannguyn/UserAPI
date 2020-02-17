@@ -1,0 +1,16 @@
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/UsersAPI.deps.json
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/UsersAPI.runtimeconfig.json
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/UsersAPI.runtimeconfig.dev.json
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/UsersAPI.dll
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/bin/Debug/netcoreapp2.1/UsersAPI.pdb
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.csprojAssemblyReference.cache
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.RazorAssemblyInfo.cache
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.RazorAssemblyInfo.cs
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.AssemblyInfoInputs.cache
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.AssemblyInfo.cs
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.RazorTargetAssemblyInfo.cache
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.dll
+/Users/seannguyen/Projects/UsersAPI/UsersAPI/obj/Debug/netcoreapp2.1/UsersAPI.pdb
